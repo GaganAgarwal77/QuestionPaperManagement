@@ -1,14 +1,30 @@
-# Question-Paper-Management-System
+# Question Paper Management System
 
-## Development Tools
 
-Install [Spring Tool Suite](https://spring.io/tools) for Eclipse.
+## Technologies Used:
 
-Install [dbeaver](https://dbeaver.com/eclipse/) extension for DB Visualization. 
+    Spring Boot
+    React
+    Primitive UI
 
-Follow [Youtube tutorial](https://www.youtube.com/watch?v=tGGo15irME8&list=PLyHJZXNdCXsd2e3NMW9sZbto8RB5foBtp&index=2) for Microservices with Spring boot and Eureka
+## Backend Development
 
-# MySQL Setup guide
+Use Eclipse or Intellij IDE to setup the Spring Boot Project
+
+Use maven to install all dependencies from the pom.xml files
+
+Start the services EurekaServer, ApiGateway, AuthorService, ItemService, PaperGenService
+
+## MySQL
 
 - **user:** root
 - **password:** Test@1234
+
+## Frontend Development
+
+Install dependencies: `npm install`
+
+Start a local web server by running: `npm start`
+
+Open http://localhost:3000 to view the app in the browser.
+
